@@ -1,3 +1,5 @@
+#include "z.h"
+
 void _boot() {
-  while (1) {}
+  PANIC();
 }
